@@ -1,0 +1,12 @@
+{
+  "name": "chatbot-app",
+  "private": true,
+  "scripts": {
+    "dev": "netlify dev --dir=frontend",
+    "build": "npm --prefix frontend run build",
+    "deploy": "netlify deploy --prod"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.34.0"
+  }
+}
